@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The translation shown under the Arabic: an alquran.cloud edition identifier
+         (https://api.alquran.cloud/v1/edition?format=text&type=translation), e.g. en.sahih Saheeh International,
+         en.pickthall, en.yusufali, ur.jalandhry, id.indonesian, fr.hamidullah, tr.diyanet. Empty shows the Arabic
+         alone. -->
+    <string name="translation" translatable="false">en.sahih</string>
+    <!-- The ayat shown, as surah:ayah references, taken in random order: well-known ayat that read whole on their
+         own (Ayat al-Kursi, the end of al-Baqarah, the Quran's duas, ayat of mercy and patience). Empty picks any
+         ayah of the Quran, which is often the middle of a passage. -->
+    <string name="ayat" translatable="false">1:5,2:152,2:153,2:186,2:201,2:255,2:285,2:286,3:8,3:26,3:139,3:173,3:190,3:191,6:162,7:23,7:56,8:46,9:51,11:88,12:87,13:11,13:28,14:7,14:40,16:18,16:97,16:128,17:24,17:80,18:10,18:46,20:25,20:46,20:114,21:83,21:87,23:118,24:35,25:74,28:24,29:45,29:69,31:17,33:41,35:2,39:10,39:53,40:60,42:19,49:13,50:16,51:56,55:13,57:4,59:22,59:23,64:11,65:3,67:2,93:5,94:5,94:6,112:1</string>
+    <!-- Seconds each ayah stays before the next one fades in, 20 to 3600. -->
+    <integer name="seconds_per_ayah">90</integer>
+    <!-- Ayat whose Arabic is longer than this many characters are skipped, so every one fits the screen. -->
+    <integer name="max_ayah_length">420</integer>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quran</string>
+    <string name="offline">Can’t reach alquran.cloud. The last ayah comes back when the TV is online.</string>
+    <string name="loading">Loading…</string>
+</resources>

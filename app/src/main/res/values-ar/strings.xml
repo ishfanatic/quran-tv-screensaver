@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">القرآن</string>
+    <string name="offline">تعذر الاتصال بـ alquran.cloud. تعود آخر آية عند اتصال التلفاز بالإنترنت.</string>
+    <string name="loading">جارٍ التحميل…</string>
+</resources>
